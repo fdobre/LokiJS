@@ -2322,7 +2322,7 @@
      */
     function LokiFsAdapter() {
       try {
-        this.fs = require('react-native-fs');
+        this.fs = require('fs');
       }catch(e) {
         this.fs = null;
       }
